@@ -97,3 +97,81 @@ font-size: 15px;
     margin-left: -400px;
     margin-top: 20px;
 }
+.home10{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: auto;
+    padding: 1%;
+}
+.home08{
+    display: flex;
+}
+.home07{
+    margin-top: 90px;
+    margin-left: -100px;
+}
+.home454{
+    margin-top:80px;
+    margin-left: -140px;
+}
+.home091{
+    font-size: 17px;
+    font-weight: 200px;
+    margin-left: -170px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.home5{
+    display: flex;
+    /* grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto; */
+     width: 110%;
+
+}
+.home6{
+    display: flex;
+   
+    
+
+}
+.home05{
+    display: flex;
+}
+.home03{
+    margin-left:60px;
+}
+.hom01111{
+    margin-left: 50px;
+}
+.homepop{
+    margin-top: 80px;
+}
+.home3111{
+    font-size: 13px;
+    font-weight: 200;
+    color: black;
+    margin-top: 0px;
+}
+.home90{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+}
+.home91{
+    display: flex;
+}
+.home92{
+    margin-top: -1px;
+    margin-left: 120px;
+}
+.home93{
+    margin-left: 20px;
+}
+.home94{
+    margin-left: -220px;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    color: black;
+}
