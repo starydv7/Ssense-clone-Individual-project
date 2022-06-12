@@ -1,0 +1,70 @@
+
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+.Navbar{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    gap: 10px;
+}
+.Navbar>div{
+    border: 1px solid red;
+}
+
+
+.navbar{
+    padding: 10px;
+    background-color: #ffff;
+    position: sticky;
+    
+    top:0%;
+}
+.navbar_list{
+    height: auto;
+    width: 100%;
+display: flex;
+justify-content: space-evenly;
+}
+.linkmain{
+    color: black;
+    margin-right: 20px;
+    text-decoration: none;
+    font-family: "Favorit SSENSE Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+
+ .drop_down {
+    display: none;
+    position: absolute;
+    background-color: white;
+    /* left: 0; */
+    top: 100%;
+    border: 1px solid grey;
+    padding: 10px;
+} #language:hover>ul{
+display: block;
+}.drop_down li{
+    margin-bottom: 5px;
+}
+
+.linkmain:hover{
+text-decoration: underline;
+color: black;
+}
+
+/* img{
+    width: 100px;
+    height: 20px;
+    margin-top: 2px;
+} */
+.ssense{
+    font-size: 40px;
+}
+ul{
+    list-style: none;
+}

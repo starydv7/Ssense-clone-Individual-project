@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Style from "../css/home.css"
+import  "./home.css"
 
 const Home = () => {
     return (
@@ -16,7 +16,7 @@ const Home = () => {
                     </div>
                    
                      <Link to="/mens">
-                    <img src="https://res.cloudinary.com/ssenseweb/image/upload/w_600,q_90,f_auto,dpr_auto/v1654700818/mzuhflb6ch6qi1dcrcnl.jpg" alt="example" />
+                    <img src="https://res.cloudinary.com/ssenseweb/image/upload/w_780,q_90,f_auto,dpr_auto/v1654700818/mzuhflb6ch6qi1dcrcnl.jpg" alt="example" />
                     </Link>
                      <div className='home13'>
                         <p className='fashion'>Fashion</p>
@@ -31,7 +31,7 @@ const Home = () => {
                 <div className='home12'>
                      <Link to="womens">SHOP WOMENSWEAR</Link>
                       <Link to="/womens">
-                  <img src="https://res.cloudinary.com/ssenseweb/image/upload/w_600,q_90,f_auto,dpr_auto/v1651165229/wxzqngwwibn6qilref3o.jpg" alt="example" />
+                  <img src="https://res.cloudinary.com/ssenseweb/image/upload/w_768,q_90,f_auto,dpr_auto/v1654793711/h7r9a4q5nsr93qnbbxv9.jpg" alt="example" />
                     </Link>
                       <div className='home13'>
                         <p className='fashion1'>Culture</p>
