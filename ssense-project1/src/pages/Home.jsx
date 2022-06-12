@@ -305,6 +305,166 @@ const Home = () => {
                    <button className='home94'><Link to="/mens">SHOP WOMENSWEAR</Link></button>
                 </div>
             </div>
+            <br />
+            <br/>
+            <br />
+            <div>
+                <p className='home200'>
+                    <b />PERSONAL SPACEWITH<br />
+                    JOSH ITIOLA
+                </p>
+            </div>
+            <div>
+                <p className='home2002'>
+
+                    Talking Prized Possession with the Multi-Talented
+                    <br />
+                    Engineer Turned Vitsoe Planner
+                </p>
+            </div>
+
+            <br />
+            <br />
+              <div className='home21'>
+                <div>
+                    <Link to="/bowen">
+                  <img src="https://res.cloudinary.com/ssenseweb/image/upload/w_400,q_90,f_auto,dpr_auto/v1651863209/edmf59b79yobdsulmqeu.jpg" alt="example" />
+                    </Link>
+                     <div>
+                        <p className='home212'>RECENT</p>
+                        <div className='home213'>
+                            <Link to="/bowen">FRESH FACE FORWARD</Link>
+                            <p className='home214'>Market | May 10 </p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                     <Link to="/greener">
+                  <img src="https://res.cloudinary.com/ssenseweb/image/upload/w_400,q_90,f_auto,dpr_auto/v1651505214/pavhpnylbxkvi2hgtr9z.jpg" alt="example" />
+                    </Link>
+                    <div>
+                        <p className='home212'>RECENT</p>
+                        <div className='home213'>
+                            <Link to="/bowen">LA STORY:LEAVING RECORDS AND <br />
+                            MUSIC FOR THE LIFE SUPPORT
+                            </Link>
+                            <p className='home214'>Market | May 27 </p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                     <Link to="/music">
+                  <img src="https://res.cloudinary.com/ssenseweb/image/upload/w_400,q_90,f_auto,dpr_auto/v1651080123/y2owfosnop7pmsqisykf.jpg" alt="example" />
+                    </Link>
+                     <div>
+                        <p className='home212'>RECENT</p>
+                        <div className='home213'>
+                            <Link to="/bowen">OUR SECRET THROUGH OBJECTS<br />
+                            PREPARES</Link>
+                            <p className='home214'>Music | May 25 </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br />
+            <br/>
+
+              <div className='home10'>
+                <div>
+                    <p className="home091">SCREEN TIME</p>
+                    <div className='home454'>
+                          <Link to="stories">VIEW ALL STORIES</Link>
+                    </div>
+                   <hr></hr>
+                </div>
+               
+                <div className='home08'>
+                     <Link to="/culture">
+                  <img src="https://res.cloudinary.com/ssenseweb/image/upload/w_100,q_90,f_auto,dpr_auto/v1597072284/ob74eesfn9bniaqz6l1p.jpg" alt="example" />
+                    </Link>
+                    <Link to="culture">SPELL IT OUT WITH  <br />
+                        TEXT ART</Link>
+                    <p className='home07'>Culture</p>
+                 
+               </div>
+                <div className= "home08">
+                    <Link to="/culture">
+                  <img src="https://res.cloudinary.com/ssenseweb/image/upload/w_100,q_90,f_auto,dpr_auto/v1597242466/nllj4bxgbquumy1bm593.jpg" alt="example" />
+                    </Link> 
+                     <Link to="culture">TH-TH-TH-THAT'S ALL<br />
+                        FOLX<br />
+                    
+                    </Link>
+                    <p className='home07'>Culture</p>
+                  
+               </div>
+                <div className='home08'>
+                     <Link to="/culture">
+                  <img src="https://res.cloudinary.com/ssenseweb/image/upload/w_100,q_90,f_auto,dpr_auto/v1615384903/mk8m97d6c8utcazhgnui.jpg" alt="example" />
+                    </Link> 
+                    <Link to="culture">MARKET RESEARCH:
+                        <br />LIGHT PHONE II
+                    </Link>
+                    <p className='home07'>Market</p>
+                    
+                </div>
+                
+                
+                <div className='home08'>
+                     <Link to="/culture">
+                  <img src="https://res.cloudinary.com/ssenseweb/image/upload/w_100,q_90,f_auto,dpr_auto/v1600442374/lxfxzaavdm4dosykw6gb.jpg" alt="example" />
+                    </Link> 
+                    <Link to="fashion">BUY BUY BUY! SELL <br />
+                        SELL SELL! THE HIGH-<br />
+                        DRAMA WORLD OF..
+                        </Link>
+                    <p className='home07'>Fashion</p>
+                    
+               </div>
+
+            </div>
+            <br />
+            <div className='home21'>
+                <div>
+                    <Link to="/bowen">
+                  <img src="https://res.cloudinary.com/ssenseweb/image/upload/w_400,q_90,f_auto,dpr_auto/v1650653324/mr5ithrhc6yzygfjfkn0.jpg" alt="example" />
+                    </Link>
+                     <div>
+                        <p className='home212'>RECENT</p>
+                        <div className='home213'>
+                            <Link to="/bowen">POCKET PLEASE</Link>
+                            <p className='home214'>Market | May 10 </p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                     <Link to="/greener">
+                  <img src="https://res.cloudinary.com/ssenseweb/image/upload/w_400,q_90,f_auto,dpr_auto/v1650377394/ha1cgclezmw9lz2etg2r.jpg" alt="example" />
+                    </Link>
+                    <div>
+                        <p className='home212'>RECENT</p>
+                        <div className='home213'>
+                            <Link to="/bowen">HAIR AND HIGHER POWER WITH  <br />
+                            JAWARA WAUCHOPE
+                            </Link>
+                            <p className='home214'>Fashion | APR 21 </p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                     <Link to="/music">
+                  <img src="https://res.cloudinary.com/ssenseweb/image/upload/w_400,q_90,f_auto,dpr_auto/v1649855761/ppbhaz8aoqykgmmxcv1e.jpg" alt="example" />
+                    </Link>
+                     <div>
+                        <p className='home212'>RECENT</p>
+                        <div className='home213'>
+                            <Link to="/bowen">MOON IS LATE<br />
+                           </Link>
+                            <p className='home214'>Culture | Apr 18 </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
       </>
      
   )
