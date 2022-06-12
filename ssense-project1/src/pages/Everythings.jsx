@@ -60,13 +60,13 @@ const Everythings = () => {
            <br/>
          <a href='culture.jsx'>Anissa Kermiche</a>
           <br/>
-         <a href='culture.jsx'>Ann Vincent</a>
+         <a href='culture.jsx'>Ann Vine</a>
           <br/>
-         <a href='culture.jsx'>applicant</a>
+         <a href='culture.jsx'>AIAIAI</a>
           <br/>
-          <a href='culture.jsx'>Ashley Williams</a>
+          <a href='culture.jsx'>AIAIAI</a>
            <br/>
-         <a href='culture.jsx'>Asics</a>
+         <a href='culture.jsx'>AIAIAI</a>
 
 
           <br />
@@ -75,8 +75,41 @@ const Everythings = () => {
           <br />
 
         </div>
-        <div className='grid2'></div>
-        <div className='grid3'></div>
+        <div className='grid2'>
+          {
+            data && data.map(({ name, url, id,cat,desc,price }) => (
+              <div className='row3'>
+              <div key={id} className="row4">
+                <img src={url} />
+                  <p className='grid8'>{name}</p>
+                  <p className='grid8'>{desc}</p>
+                  <p className='grid8'>{cat}</p>
+                  <p className='grid8'>{price}</p>
+                  <div className='btn'>
+                    {/* {count} */}
+                    <button>AddtoCart</button>
+                  </div>
+                  
+              </div>
+                </div>
+            ))
+          }
+
+        </div>
+        <div className='grid3'>
+           <h6>ALL CATEGORIES</h6>
+          <a href='culture.jsx'>ACTIVITY</a>
+          <br/>
+         <a href='culture.jsx'>HOME</a>
+          <br/>
+         <a href='culture.jsx'>KIDS</a>
+          <br/>
+         <a href='culture.jsx'>PETS</a>
+          <br/>
+         <a href='culture.jsx'>SELF-CARE</a>
+          <br/>
+         <a href='culture.jsx'>TECHNOLOGY</a>
+        </div>
       </div>
     
       </>

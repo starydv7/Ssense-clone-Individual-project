@@ -223,7 +223,7 @@ const Home = () => {
                 </div>
                 <div className='hom01111'>
                     <div className='home05'>
-                        <img src='https://res.cloudinary.com/ssenseweb/image/upload/w_100,q_90,f_auto,dpr_auto/v1648043578/rx9qrqkbfbni3ajifbqh.jpg' alt='j' />
+                        <img src='https://res.cloudinary.com/ssenseweb/image/upload/w_100,q_90,f_auto,dpr_auto/v1640043578/rx9qrqkbfbni3ajifbqh.jpg' alt='j' />
                          <p className='home3111'>
                             DANGER BY <br />
                             DEFINATION:LUU<br />
@@ -389,7 +389,7 @@ const Home = () => {
                </div>
                 <div className= "home08">
                     <Link to="/culture">
-                  <img src="https://res.cloudinary.com/ssenseweb/image/upload/w_100,q_90,f_auto,dpr_auto/v1597242466/nllj4bxgbquumy1bm593.jpg" alt="example" />
+                  <img src="https://res.cloudinary.com/ssenseweb/image/upload/w_100,q_90,f_auto,dpr_auto/v1592042466/nllj4bxgbquumy1bm593.jpg" alt="example" />
                     </Link> 
                      <Link to="culture">TH-TH-TH-THAT'S ALL<br />
                         FOLX<br />
