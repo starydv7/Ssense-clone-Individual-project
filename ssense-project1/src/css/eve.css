@@ -1,0 +1,26 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+
+}
+.grid1{
+width: 20%;
+height: auto;
+border: 2px solid blue;
+font-size: 14px;
+margin-top: 50px;
+color: black;
+text-shadow: olive;
+text-decoration: double;
+font-stretch: expanded;
+}
+.grid21{
+    width: 50%;
+    height: auto;
+    border: 1px solid black;
+}
+.grid3{
+    border: 1px solid red;
+    width: 25%;
+}
