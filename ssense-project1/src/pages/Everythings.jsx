@@ -15,13 +15,11 @@ const Everythings = () => {
           <br/>
          <a href='culture.jsx'>KIDS</a>
           <br/>
-         <a href='culture.jsx'>PETS</a>
+         <a href='fashion.jsx'>PETS</a>
           <br/>
          <a href='culture.jsx'>SELF-CARE</a>
           <br/>
          <a href='culture.jsx'>TECHNOLOGY</a>
-          <br />
-          <br />
           <br />
           <br />
            <h6>ALL DESIGNERS</h6>
@@ -65,9 +63,9 @@ const Everythings = () => {
           <br/>
          <a href='culture.jsx'>AIAIAI</a>
           <br/>
-          <a href='culture.jsx'>AIAIAI</a>
+          <a href='culture.jsx'>Akila</a>
            <br/>
-         <a href='culture.jsx'>AIAIAI</a>
+         <a href='culture.jsx'>AMIRI</a>
 
 
           <br />
@@ -80,7 +78,7 @@ const Everythings = () => {
           {
             data && data.map(({ name, url, id,cat,desc,price }) => (
               <div className='row3'>
-                <Link to="evde">
+                <Link to="/evde">
               <div key={id} className="row4">
                 <img src={url} />
                   <p className='grid8'>{name}</p>
@@ -93,7 +91,7 @@ const Everythings = () => {
                     <br/>
                   <div className='btn'>
                     {/* {count} */}
-                    <button>AddtoCart</button>
+                    <button className='btn'>AddtoCart</button>
                   </div>
                  
                   </div>

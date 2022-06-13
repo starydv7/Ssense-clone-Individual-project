@@ -4,8 +4,7 @@ import "../App.css"
 import "../components/Navbar.css"
 import { Link } from 'react-router-dom'
 import { useState, useEffect } from 'react'
-// import Navbar from './Navbar'
-// import Footer from './Footer'
+
 
 
 const ShopMens = () => {
@@ -16,7 +15,7 @@ const ShopMens = () => {
       d.json()
       )
       data=data.men
-      //console.log(data.men);
+     
       setMens(data)
       
     }
@@ -40,23 +39,23 @@ const ShopMens = () => {
                 return bPrice - aPrice;
       }
         })
-       // console.log(data2)
+      
        setMens([...data2])
-      //getData()
+     
     }
    
 
   return (
     <div>
-        {/* <Navbar/> */}
-        <div className="menswear-container">
+       
+        <div className="mens">
 
             <div className="mens-category">
                 <div>
-                    <div className="mens-category-title">
+                    <div className="menscat">
                         <h5>ALL CATEGORIES </h5>
                     </div>
-                    <div className="mens-category-list">
+                    <div className="mens3">
                         <ul> ACCESSORIES</ul>
                         <ul> BAGS </ul>
                         <ul> CLOTHING </ul>
@@ -64,10 +63,10 @@ const ShopMens = () => {
                         </div>
                 </div>
                 <div>
-                    <div className="mens-category-title">
+                    <div className="menscat">
                         <h5>ALL DESIGNERS </h5>
                     </div>
-                    <div className="mens-category-list">
+                    <div className="mens3">
                         <ul> 032c</ul>
                         <ul> 1017 ALYX 9SM </ul>
                         <ul> 11 by Boris Bidjan Saberi</ul>
@@ -186,13 +185,13 @@ const ShopMens = () => {
 
             </div>
        
-            <div className='mens-data'>
+            <div className='data1'>
                
                
             {men.map((e)=>
                         {return (
-                          <Link className="mens-data-item" key = {e._id} to = {`${e._id}`}>
-                            <img src={e.img} className="menimage" alt="missing"/>
+                          <Link className="data1-item" key = {e._id} to = {`${e._id}`}>
+                            <img src={e.img} className="im1" alt="pp"/>
                             <p>{e.name}</p>
                             <p>{e.desc}</p>
                             <p>{e.price}</p>
@@ -203,22 +202,22 @@ const ShopMens = () => {
                 
 
             </div>
-            <div className='mens-sort'>
+            <div className='menss'>
                 <div>
-                    <div className="mens-category-title">
+                    <div className="menscat">
                             <h5>SORT </h5>
                     </div>
-                     <div className="mens-category-list">
+                     <div className="mens3">
                       
                             <ul> Latest arrivals</ul>
                             <ul> Trending</ul>
                             <ul onClick={()=>handleTerminate("lowest")} value="lowest"> Price: Low to high</ul>
                             <ul onClick={()=>handleTerminate("highest")} value="highest"> Price: High to low </ul>
                     </div> 
-                    <div className="mens-category-title">
+                    <div className="menscat">
                             <h5>COLORS</h5>
                     </div>
-                    <div className="mens-category-list">
+                    <div className="mens3">
                             <ul className='uderline'> ALL COLORS </ul>
                             <ul> Black</ul>
                             <ul> Blue</ul>
@@ -243,7 +242,7 @@ const ShopMens = () => {
         </div>
 
 
-         {/* <Footer/>    */}
+        
         
     </div>
   )

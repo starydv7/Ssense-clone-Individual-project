@@ -42,7 +42,7 @@ export const Womens = () => {
                
                         <h5>{women.name}</h5>
                     
-                    {/* <div className="mens-category-list"> */}
+                    {/* <div className="mens3"> */}
                         <p>{women.desc}</p>
                         <h6>Padded polyester satin jacket</h6>
                         <p>. Half-Zip closure at stand collar</p>

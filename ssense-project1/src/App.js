@@ -2,16 +2,16 @@
 import './App.css';
 import Navbar from './components/Navbar';
 import { Routes,Route } from 'react-router-dom';
-// import Womens from './pages/Womens';
+
 import Home from './pages/Home';
 import ShopMens from './pages/ShopMens';
 import Everythings from './pages/Everythings';
 import { SHopWomens } from './pages/ShopWomen';
-import  Mens from "./pages/Mens";
-import { Womens } from "./pages/Womens";
 import Footer from './pages/Footer';
-// import ShopMens from './pages/ShopMens';
-// import ShopWomen from './pages/ShopWomen';
+import { EvDe } from './pages/EvDe';
+import Login from './pages/Login';
+import { Register } from './pages/register';
+
 
 function App() {
   return (
@@ -22,18 +22,11 @@ function App() {
         <Route path="/mens" element={<ShopMens/> }></Route>
         <Route path="/womens" element={<SHopWomens />}></Route>
         <Route path='/everythings' element={<Everythings />} />
-       
-      </Routes>
-      {/* <Home/> */}
-      {/* <Routes>
-        <Route path='mens' element={<ShopMens/> }>
-        </Route>
-        <Route path='womemens' element={<ShopWomen/> }>
-        </Route>
-      </Routes> */}
-      <br />
-      <br/>
-      <hr/>
+        <Route path="/register" element={<Register/>}></Route>
+        <Route path="/everythings/:id" element={<EvDe />}></Route>
+        <Route path="/login" element={<Login/>}></Route>
+        </Routes>
+    
       <Footer/>
     </div>
   );
