@@ -1,6 +1,7 @@
 import React from 'react'
 import users from "../data/users.json";
 import Style from "../css/eve.css";
+import { Link } from 'react-router-dom';
 const Everythings = () => {
   const [data, setData] = React.useState(users);
   return (
@@ -79,6 +80,7 @@ const Everythings = () => {
           {
             data && data.map(({ name, url, id,cat,desc,price }) => (
               <div className='row3'>
+                <Link to="evde">
               <div key={id} className="row4">
                 <img src={url} />
                   <p className='grid8'>{name}</p>
@@ -93,8 +95,9 @@ const Everythings = () => {
                     {/* {count} */}
                     <button>AddtoCart</button>
                   </div>
-                  
-              </div>
+                 
+                  </div>
+                   </Link>
                 </div>
             ))
           }
