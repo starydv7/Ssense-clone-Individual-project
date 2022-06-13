@@ -1,7 +1,7 @@
 .home1{
     /* width: 100%;
     height: 100%; */
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: auto;
@@ -13,7 +13,7 @@
     font-style: oblique;
 }
 .home11{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     /* width: 50%; */
     width: 500px;
     height: 500px;
@@ -24,8 +24,18 @@
     width: 500px;
     height: 500px;
 } */
+.home13{
+    margin-top: 20px;
+}
+.home131{
+    margin-top: 20px;
+    font-size: 10px;
+}
+.fashion1{
+margin-left: 300px;
+}
 .home12{
-    border: 2px solid rgb(26, 208, 35);
+    /* border: 2px solid rgb(26, 208, 35); */
     /* width: 50%; */
     width: 100%;
     height: 700px;
@@ -41,14 +51,20 @@
 }
 .home131{
     font-size: 26px;
-    margin-top:-40px;
+    margin-top:-20px;
     margin-left:15px;
+}
+.home131:hover{
+    color: rgb(41, 48, 46);
 }
 .home132{
     font-size: 17px;
     font: 100;
     font-weight: 100;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.home132:hover{
+    color: blueviolet;
 }
 .fashion1{
      font-size: 15px;
@@ -92,7 +108,7 @@ font-size: 15px;
 .home334{
     margin-left: -350px;
     margin-top:20px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     
 }
 .home342{
@@ -109,9 +125,11 @@ font-size: 15px;
     grid-template-columns: repeat(5,1fr);
     grid-template-rows: auto;
     padding: 1%;
+    margin-left: 40px;
 }
 .home08{
     display: flex;
+    margin-left: 50px;
 }
 .home07{
     margin-top: 90px;
@@ -127,6 +145,9 @@ font-size: 15px;
     margin-left: -170px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+.home091:hover{
+    flood-color: blue;
+}
 .home5{
     display: flex;
     /* grid-template-columns: repeat(3,1fr);
@@ -136,6 +157,7 @@ font-size: 15px;
 }
 .home6{
     display: flex;
+    margin-left: 100px;
    
     
 
@@ -150,7 +172,7 @@ font-size: 15px;
     margin-left: 50px;
 }
 .homepop{
-    margin-top: 80px;
+    margin-top: 100px;
 }
 .home3111{
     font-size: 13px;
@@ -167,15 +189,18 @@ font-size: 15px;
     display: flex;
 }
 .home92{
-    margin-top: -1px;
+    margin-top: 10px;
     margin-left: 120px;
 }
 .home93{
     margin-left: 20px;
 }
+.home21:hover{
+    box-shadow: rgba(50, 188, 77, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
 .home94{
     margin-left: -220px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     border-radius: 0.5rem;
     width: 200px;
     height: 30px;
@@ -188,9 +213,24 @@ font-size: 15px;
    color: rgb(57, 51, 51);
     font-weight: 400;
 }
-.home2002{
+.home2002:hover{
     font-size: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 100;
     color: rgb(57, 51, 51);
+    box-shadow: rgba(218, 115, 115, 0.35) 0px 5px 15px;
+}
+.home213{
+    margin-top: 10px;
+}
+.home214{
+    margin-top: 10px;
+    margin-left: 140px;
+    
+}
+.home200,.home2002{
+    margin-left: 100px;
+}
+.sale:hover{
+    color: blue;
 }

@@ -9,13 +9,13 @@ const Navbar = () => {
 
         <ul className='navbar_list'>
             <li className='left_of_navbar'>
-                <Link to='/Menswear' className='linkf linkmain'  >
+                <Link to='/mens' className='linkf linkmain'  >
                     MENSWEAR
                 </Link>
-                <Link to='/Womenswear'  className='linkf linkmain'>
+                <Link to='/womens'  className='linkf linkmain'>
                     WOMENSWEAR
                 </Link>
-                <Link to='/Everything'  className='linke linkmain'>
+                <Link to='/Everythings'  className='linke linkmain'>
                     EVERYTHING ELSE
                 </Link>
                 <Link to='/'

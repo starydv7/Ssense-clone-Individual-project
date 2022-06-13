@@ -34,7 +34,7 @@ const Home = () => {
                   <img src="https://res.cloudinary.com/ssenseweb/image/upload/w_768,q_90,f_auto,dpr_auto/v1654793711/h7r9a4q5nsr93qnbbxv9.jpg" alt="example" />
                     </Link>
                       <div className='home13'>
-                        <p className='fashion1'>Culture</p>
+                        {/* <p className='fashion1'>Culture</p> */}
                         <p className='home131'>LIKES A PRAYER: SEARCHING
                             FOR THE LIGHT IN 2022
                         </p>

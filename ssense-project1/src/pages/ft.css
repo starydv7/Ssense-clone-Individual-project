@@ -1,0 +1,28 @@
+.footer{
+    /* border: solid black 1px; */
+    font-size: 11px;
+    width: 100%;
+    font-family: "Favorit SSENSE Inter";
+    
+}
+.footer div{
+  /* border: solid black 1px; */
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer div:nth-child(2){
+  font-size: 10px;
+  width: 35%;
+  margin-top: 10px;
+  color: #888888;
+}
+.footer div p{
+    padding-left: 2%;
+
+}
+.footer div p:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}

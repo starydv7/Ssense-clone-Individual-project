@@ -1,0 +1,94 @@
+.menswear-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 50px;
+    ;
+}
+.mens-category{
+    width: 12%;
+    height: auto;
+    /* border: 1px solid rgb(12, 12, 12) */
+
+}
+.mens-category-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+.mens-category-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* align-items: center; */
+    
+
+    
+}
+.mens-data{
+    width: 76%;
+    height: 100%;
+    display: grid;
+    margin: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    grid-template-columns: repeat(3, 35%);
+    grid-gap: 20px;
+    
+   
+
+    /*border: 1px solid rgb(12, 12, 12) */
+}
+
+.menimage{
+    width: 60%;
+    height: 60%;
+    margin-left: 30px;
+    /* border: 1px solid rgb(12, 12, 12) */
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: -8px;
+    text-decoration: none;
+    color: rgb(46, 46, 46);
+    text-align: left;
+
+    /* border: 1px solid rgb(12, 12, 12) */
+}
+p:hover{
+    /* text-decoration: underline; */
+    cursor: pointer;
+}
+.mens-sort{
+    width: 12%;
+    height: auto;
+    /* border: 1px solid rgb(12, 12, 12) */
+}
+
+.mens-category-list>ul{
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 6px;
+    margin-top: 0px;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+.uderline{
+    text-decoration: underline;
+}
+.mens-category-list>ul:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}

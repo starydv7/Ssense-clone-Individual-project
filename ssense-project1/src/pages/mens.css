@@ -1,0 +1,155 @@
+.Main-div{
+    margin-top: 5%;
+    width: 94%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 3%;
+    padding-right: 3%;
+    /* padding-right: 3%; */
+    /* border : 1px solid rgb(12, 12, 12); */
+
+}
+.mens-div{
+    text-align: center;
+    margin-top: -100px;
+}
+
+h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: -5px;
+    text-decoration: none;
+    
+}
+h6{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 6%;
+    margin-bottom: 6%;
+    text-decoration: none;
+    
+}
+
+.mens-div{
+    width: 40%;
+    height: auto;
+    margin: auto;
+
+    /* border: 1px solid rgb(12, 12, 12); */
+
+}
+
+.mens-category1{
+    width: 24%;
+    height: auto;
+    margin-top: 80px;
+    /* border: 1px solid rgb(12, 12, 12); */
+
+}
+#size{
+    width: 85%;
+    height: 9%;
+    border: 1px solid rgb(59, 59, 59);
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: -5px;
+    text-decoration: none;
+    /* padding:5% */
+    padding-left: 2%;
+
+}
+.Add-to-cart-div{
+    margin-top: 15px;
+    width: 85%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* border: none; */
+    /* padding-left: 3%;
+    padding-right: 3%; */
+    /* border: 1px solid rgb(12, 12, 12); */
+}
+
+ 
+.add-to-cart{
+    width: 45%;
+    height: 35px;
+    /* border: 0.5px solid rgb(14, 14, 14); */
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: -5px;
+    text-decoration: none;
+    background-color: rgb(14, 14, 14);
+    color: white;
+}
+.add-to-cart:hover{
+    cursor: pointer;
+}
+
+.add-to-wish{
+    width: 55%;
+    height: 35px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px ;
+    font-weight: 400 ;
+    margin-top: 10px ;
+    margin-bottom: -5px ;
+    text-decoration: none;
+    background-color: white;
+    color: rgb(68, 66, 66);
+    border:none;
+}
+.add-to-wish:hover{
+    cursor: pointer;
+}
+.Add-to-cart-div2{
+    margin-top: 15px;
+    width: 85%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+ 
+    /* border: none; */
+    /* padding-left: 3%;
+    padding-right: 3%; */
+    /* border: 1px solid rgb(12, 12, 12); */
+}
+.p1{
+    font-family: 'Roboto', sans-serif;
+    margin-right: 10px;
+}
+.p2{
+    font-family: 'Roboto', sans-serif;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    text-decoration: underline;
+}
+.p3{
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+    
+}
+.p4{
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+  
+}
+.img{
+    width: 50%;
+    display: block;
+    height: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+

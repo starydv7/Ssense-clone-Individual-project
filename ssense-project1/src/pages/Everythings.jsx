@@ -82,9 +82,13 @@ const Everythings = () => {
               <div key={id} className="row4">
                 <img src={url} />
                   <p className='grid8'>{name}</p>
+                  <br/>
                   <p className='grid8'>{desc}</p>
+                  <br/>
                   <p className='grid8'>{cat}</p>
+                    <br/>
                   <p className='grid8'>{price}</p>
+                    <br/>
                   <div className='btn'>
                     {/* {count} */}
                     <button>AddtoCart</button>
@@ -118,14 +122,3 @@ const Everythings = () => {
 
 export default Everythings
 
-//<div className='grid'>Everythings
-      // {data && data.map(({ name, id,url }) => (
-   
-      //   <div key={id} className='row1'>
-      //     <img src={url}/>
-      //     <strong>{name}</strong>
-      //   </div>
-      // ))}
-     
-
-      // </div>

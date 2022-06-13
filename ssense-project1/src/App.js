@@ -2,12 +2,16 @@
 import './App.css';
 import Navbar from './components/Navbar';
 import { Routes,Route } from 'react-router-dom';
-import Womens from './pages/Womens';
+// import Womens from './pages/Womens';
 import Home from './pages/Home';
-import Mens from './pages/Mens';
-import Everythings from './pages/Everythings';
 import ShopMens from './pages/ShopMens';
-import ShopWomen from './pages/ShopWomen';
+import Everythings from './pages/Everythings';
+import { SHopWomens } from './pages/ShopWomen';
+import  Mens from "./pages/Mens";
+import { Womens } from "./pages/Womens";
+import Footer from './pages/Footer';
+// import ShopMens from './pages/ShopMens';
+// import ShopWomen from './pages/ShopWomen';
 
 function App() {
   return (
@@ -15,17 +19,22 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="" element={<Home />}></Route>
-        <Route path="/mens" element={<Mens/> }></Route>
-        <Route path="/womens" element={<Womens />}></Route>
-        <Route path='/everythings' element={<Everythings/>}/>
+        <Route path="/mens" element={<ShopMens/> }></Route>
+        <Route path="/womens" element={<SHopWomens />}></Route>
+        <Route path='/everythings' element={<Everythings />} />
+       
       </Routes>
       {/* <Home/> */}
-      <Routes>
+      {/* <Routes>
         <Route path='mens' element={<ShopMens/> }>
         </Route>
         <Route path='womemens' element={<ShopWomen/> }>
         </Route>
-      </Routes>
+      </Routes> */}
+      <br />
+      <br/>
+      <hr/>
+      <Footer/>
     </div>
   );
 }
