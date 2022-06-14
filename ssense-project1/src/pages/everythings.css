@@ -1,3 +1,6 @@
 .btn:hover{
-color: blue;
+color: rgb(47, 255, 0);
+}
+.hrr{
+    border: 3px solid #1b1b1c;
 }

@@ -1,15 +1,31 @@
 .email{
-    margin-left: -100px;
+    margin-left: -80px;
     font-style: normal;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 }
 .password
-.btn:hover{
-    color: red;
+{
+    color: rgb(44, 38, 38);
     font-weight: 500;
-    
+    margin-left: -100px;
     font-stretch: expanded;
-    background-color: rgb(28, 29, 28);
+    
     border-radius: 10px;
+   
 }
+.btn{
+    font-size: large;
+    background-color: black;
+    width: 200px;
+    border-radius: 10px;
+    color: whitesmoke;
+    font-weight: 700;
+}
+.btn:hover{
+    background-color: rgb(24, 252, 47);
+    color: black;
+    font-weight: 600;
+    
+}
+

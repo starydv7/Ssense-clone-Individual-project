@@ -4,6 +4,9 @@ import "../App.css"
 import "../components/Navbar.css"
 import { Link } from 'react-router-dom'
 import { useState, useEffect } from 'react'
+
+
+
 const ShopMens = () => {
 
     const [men, setMens] = useState([])
@@ -17,6 +20,7 @@ const ShopMens = () => {
       
     }
     useEffect(() => {
+
       getData()
     }, [])
     const handleTerminate = (e) => {
@@ -214,4 +218,6 @@ const ShopMens = () => {
     </div>
   )
 }
+
+
 export default ShopMens;

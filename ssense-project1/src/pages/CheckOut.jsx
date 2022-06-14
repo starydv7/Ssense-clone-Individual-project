@@ -5,7 +5,7 @@ import imagem from "../assets/mastercard.svg"
 import imagep from "../assets/paypal.svg"
 import imagea from "../assets/alipay.svg"
 import {useCart} from "react-use-cart";
-import { Link } from "react-router-dom";
+
 
 let data=JSON.parse(localStorage.getItem("Items"))
 export const Checkout=()=>{

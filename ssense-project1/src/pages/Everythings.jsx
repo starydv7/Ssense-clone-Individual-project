@@ -1,9 +1,27 @@
-import React from 'react'
+import React, {useState } from 'react'
 import users from "../data/users.json";
 import Style from "../css/eve.css";
-import { Link } from 'react-router-dom';
+import { Link, Navigate } from 'react-router-dom';
 const Everythings = () => {
+  const [men, setMens] = useState([])
   const [data, setData] = React.useState(users);
+  const add = () => {
+    Navigate("./checkout");
+  }
+   const handleTerminate = (e) => {
+       
+        let data2 = men.sort((a, b) => {
+        let aPrice = a.price[0] === '$' ? parseFloat(a.price.slice(1,-1)) : 0;
+        let bPrice = b.price[0] === '$' ? parseFloat(b.price.slice(1,-1)) : 0;
+        
+        if (e === 'lowest')
+         { return aPrice - bPrice;
+            } else if (e === 'highest') {
+                return bPrice - aPrice;
+      }
+        })
+       setMens([...data2]) 
+    }
   return (
     <>
       <div className='gridmain'>
@@ -78,7 +96,7 @@ const Everythings = () => {
           {
             data && data.map(({ name, url, id,cat,desc,price }) => (
               <div className='row3'>
-                <Link to="/evde">
+                <Link to="/checkout">
               <div key={id} className="row4">
                 <img src={url} />
                   <p className='grid8'>{name}</p>
@@ -91,7 +109,7 @@ const Everythings = () => {
                     <br/>
                   <div className='btn'>
                     {/* {count} */}
-                    <button className='btn'>AddtoCart</button>
+                    <button className='btn'onClick={add}>AddtoCart</button>
                   </div>
                  
                   </div>
@@ -101,22 +119,32 @@ const Everythings = () => {
           }
 
         </div>
+
         <div className='grid3'>
+            <div className="mens3">
+                      
+                            <ul> Latest arrivals</ul>
+                            <ul> Trending</ul>
+                            <ul onClick={()=>handleTerminate("lowest")} value="lowest"> Price: Low to high</ul>
+                            <ul onClick={()=>handleTerminate("highest")} value="highest"> Price: High to low </ul>
+                    </div> 
            <h6>ALL CATEGORIES</h6>
-          <a href='culture.jsx'>ACTIVITY</a>
-          <br/>
-         <a href='culture.jsx'>HOME</a>
-          <br/>
-         <a href='culture.jsx'>KIDS</a>
-          <br/>
-         <a href='culture.jsx'>PETS</a>
-          <br/>
-         <a href='culture.jsx'>SELF-CARE</a>
-          <br/>
-         <a href='culture.jsx'>TECHNOLOGY</a>
+         <ul> Black</ul>
+                            <ul> Blue</ul>
+                            <ul> Brown</ul>
+                            <ul> Burgundy </ul>
+                            <ul> Gray</ul>
+                            <ul> Green</ul>
+                            <ul> Navy </ul>
+                            <ul> Pink </ul>
+                            <ul> Purple</ul>
+                            <ul> Red </ul>
+                            <ul> Tan</ul>
+                            <ul> White</ul>
+                            <ul> Yellow</ul>   
         </div>
       </div>
-    
+     <hr className='hrr'></hr>
       </>
   )
 }
