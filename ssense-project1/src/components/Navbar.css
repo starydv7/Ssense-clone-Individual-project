@@ -21,13 +21,13 @@
     
     top:0%;
 }
-.navbar_list{
+.first{
     height: auto;
     width: 100%;
 display: flex;
 justify-content: space-evenly;
 }
-.linkmain{
+.first12{
     color: black;
     margin-right: 20px;
     text-decoration: none;
@@ -52,7 +52,7 @@ display: block;
     margin-bottom: 5px;
 }
 
-.linkmain:hover{
+.first12:hover{
 text-decoration: underline;
 color: black;
 }

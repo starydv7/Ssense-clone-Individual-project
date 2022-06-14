@@ -7,31 +7,31 @@ const Navbar = () => {
     <>
     <nav className='navbar'>
 
-        <ul className='navbar_list'>
-            <li className='left_of_navbar'>
-                <Link to='/mens' className='linkf linkmain'  >
+        <ul className='first'>
+            <li className='first1'>
+                <Link to='/mens' className='linkf first12'  >
                     MENSWEAR
                 </Link>
-                <Link to='/womens'  className='linkf linkmain'>
+                <Link to='/womens'  className='linkf first12'>
                     WOMENSWEAR
                 </Link>
-                <Link to='/Everythings'  className='linke linkmain'>
+                <Link to='/Everythings'  className='linke first12'>
                     EVERYTHING ELSE
                 </Link>
                 <Link to='/'
-                 className='linkd linkmain'
+                 className='first12'
                  >
                     SEARCH
                 </Link>
             </li>
             <li>
-            <Link to='/'  className='linkmain'>
+            <Link to='/'  className='first12'>
             {/* <img src="https://res.cloudinary.com/ssenseweb/image/upload/v1471963917/web/ssense_logo_v2.svg" /> */}
         <p className='ssense'>SSENSE</p>
                       </Link>
             </li>
-            <li className='right_of_navbar'>
-            <Link to='/'  className='linkmain' id='language'>
+            <li className='first123'>
+            <Link to='/'  className='first12' id='language'>
                <span>ENGLISH</span>
                 <ul className='drop_down'>
                         <li>
@@ -43,13 +43,13 @@ const Navbar = () => {
                     </ul>
                     
                 </Link>
-                <Link to='/login'  className='linkc linkmain'>
+                <Link to='/login'  className='linkc first12'>
                 LOGIN
                 </Link>
-                <Link to='/' className='linkb linkmain'>
+                <Link to='/' className='linkb first12'>
                 WISHLIST
                 </Link>
-                <Link to='/Checkout'  className='linka linkmain'>
+                <Link to='/Checkout'  className='linka first12'>
                     SHOPPING BAG
                 </Link>
             </li>
@@ -60,30 +60,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
-
-//  <div className='navbar1st'>
-//         <div className='nav1'>
-//           <div className='nav2'>
-//           <Link to=""></Link>
-//         </div>
-//         <div nav3>
-//           <Link to="/women">WOMENWEARS</Link>
-//         </div>
-//         <div>
-//           <Link to="/men">MENWEARS</Link>
-//           </div>
-//         </div>
-       
-         
-         
-//           <Link to="/everythings">EVERYTHINGSELSE</Link>
-//           <Link to="/sale">SALE</Link>
-//           <Link to="/search">SEARCH</Link>
-//           </div>
-//           <div className='navbar2'><h1>SSENSE</h1></div>
-//           <div className='navbar3'>
-//               <Link to="english">ENGLISH</Link>
-//               <Link to="account">ACCOUNT</Link>
-//                <Link to="wishlist">WISHLIST</Link>
-//                 <Link to="shopping">SHOOPING BAG</Link>
+export default Navbar;

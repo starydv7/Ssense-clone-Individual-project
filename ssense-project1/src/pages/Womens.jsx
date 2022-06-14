@@ -35,7 +35,7 @@ export const Womens = () => {
   return (
     <div>
       
-    <div className='Main-div'>
+    <div className='m1223'>
      
                  <div className="mens-category1">
                
@@ -61,7 +61,7 @@ export const Womens = () => {
                         <p>221161M180032</p>
                    
                   </div> 
-                  <div className="mens-details-img">
+                  <div className="m122">
                         <img className='img' img src={women.img} alt="mens" />
                   </div> 
                   <div className="mens-category1">

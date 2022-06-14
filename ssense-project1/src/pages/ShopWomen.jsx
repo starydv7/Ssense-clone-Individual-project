@@ -2,8 +2,6 @@ import React from 'react'
 import "./shopmens.css"
 import "../App.css"
 import { useState, useEffect } from 'react'
-// import Navbar from './Navbar'
-// import Footer from './Footer'
 import { Link } from 'react-router-dom'
 
 
@@ -16,7 +14,7 @@ export const SHopWomens = () => {
         d.json()
         )
         data=data.women
-        //console.log(data.men);
+        
         setMens(data)
         
       }
@@ -26,7 +24,6 @@ export const SHopWomens = () => {
     }, [])
   return (
     <div>
-        {/* <Navbar/> */}
         <div className="mens">
 
             <div className="mens-category">
@@ -150,18 +147,8 @@ export const SHopWomens = () => {
                         <ul> Lillie & Co</ul>
                         <ul> Liberal Youth Ministry</ul>
                         <ul> ZENGA</ul>
-                        
-
-
-
-
-
-
                         </div>
                 </div>
-                
-                
-
             </div>
 
             <div className='data1'>
@@ -169,7 +156,7 @@ export const SHopWomens = () => {
                
                     {men.map((e)=>
                         {return (
-                            <Link className="data1-item" key = {e._id} to = {`${e._id}`}>
+                            <Link className="m12" key = {e._id} to = {`${e._id}`}>
                             <img className="im1" src={e.img} alt="missing"/>
                             <p>{e.name}</p>
                             <p>{e.desc}</p>
@@ -216,11 +203,7 @@ export const SHopWomens = () => {
                 
             </div>
 
-        </div>
-
-
-        {/* <Footer/>     */}
-        
+        </div>    
     </div>
   )
 }

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./Checkout.css";
-import imagev from "../assets/visa.svg"
+import imagev from "../pics/visa.svg"
 import imagem from "../assets/mastercard.svg"
 import imagep from "../assets/paypal.svg"
 import imagea from "../assets/alipay.svg"

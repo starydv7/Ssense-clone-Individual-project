@@ -13,6 +13,7 @@ import Login from './pages/Login';
 import { Register } from './pages/register';
 import { MenDetails } from "./pages/MenDetails"
 import { Checkout } from "./pages/CheckOut";
+import { WomenDetails } from "./pages/WomenDetails";
 
 function App() {
   return (
@@ -25,8 +26,9 @@ function App() {
         <Route path='/everythings' element={<Everythings />} />
         <Route path="/register" element={<Register/>}></Route>
         <Route path="/login" element={<Login />}></Route>
-        <Route path="/Menswear/:id" element={<MenDetails />}></Route>
+        <Route path="/Menswear/:id" element={<MenDetails/>}></Route>
         <Route path="/Checkout" element={<Checkout />} />
+        <Route path="/womensdetails" element={<WomenDetails/>}></Route>
         </Routes>
     
       <Footer/>

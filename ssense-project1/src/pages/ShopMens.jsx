@@ -172,7 +172,7 @@ const ShopMens = () => {
             <div className='data1'>
             {men.map((e)=>
                         {return (
-                          <Link className="data1-item" key = {e._id} to = {`${e._id}`}>
+                          <Link className="m12" key = {e._id} to = {`${e._id}`}>
                             <img src={e.img} className="im1" alt="pp"/>
                             <p>{e.name}</p>
                             <p>{e.desc}</p>
