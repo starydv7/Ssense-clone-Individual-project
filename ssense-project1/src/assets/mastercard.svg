@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="21px" viewBox="0 0 34 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>mastercard 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="33.6785714" height="20.5" rx="1.2"></rect>
+        <rect id="path-3" x="0" y="0" width="34.5205357" height="20.5"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="CheckoutSsense" transform="translate(-468.000000, -708.000000)">
+            <g id="mastercard-2" transform="translate(468.000000, 708.000000)">
+                <g id="mastercard">
+                    <g id="img">
+                        <g id="Mastercard">
+                            <g id="mc_acc-+-Rectangle-2-Copy-6-Mask">
+                                <g>
+                                    <g id="Group-8">
+                                        <g id="Clipped">
+                                            <mask id="mask-2" fill="white">
+                                                <use xlink:href="#path-1"></use>
+                                            </mask>
+                                            <g id="path-1"></g>
+                                            <g id="Group" mask="url(#mask-2)">
+                                                <g id="Mask" fill="#000000" fill-rule="nonzero">
+                                                    <rect id="path-3" x="0" y="0" width="34.5205357" height="20.5"></rect>
+                                                </g>
+                                                <g id="mc_acc-Clipped">
+                                                    <mask id="mask-4" fill="white">
+                                                        <use xlink:href="#path-3"></use>
+                                                    </mask>
+                                                    <g id="path-3"></g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="mc_symbol" transform="translate(5.806650, 2.411765)">
+                        <g id="Group" opacity="0" fill="#FFFFFF">
+                            <rect id="Rectangle" x="0" y="0" width="23.1192659" height="15.6584517"></rect>
+                        </g>
+                        <rect id="Rectangle" fill="#FF5F00" x="8.51114159" y="2.72806626" width="6.09874235" height="10.2005172"></rect>
+                        <path d="M9.13931557,7.82922583 C9.13778426,5.83903508 10.0299517,3.95864734 11.5587532,2.72986815 C8.96155999,0.639681406 5.23188642,0.944135181 2.99084681,3.42926755 C0.749807199,5.91439992 0.749807199,9.74585363 2.99084681,12.230986 C5.23188642,14.7161184 8.96155999,15.0205721 11.5587532,12.9303854 C10.0294652,11.701216 9.13724324,9.82004889 9.13931557,7.82922583 Z" id="Path" fill="#EB001B"></path>
+                        <path d="M21.4184453,12.6219844 L21.4184453,11.7726987 L21.6624929,11.7726987 L21.6624929,11.5969844 L21.0816596,11.5969844 L21.0816596,11.7726987 L21.3110643,11.7726987 L21.3110643,12.6219844 L21.4184453,12.6219844 Z M22.5459453,12.6219844 L22.5459453,11.5969844 L22.370231,11.5969844 L22.165231,12.3291273 L21.960231,11.5969844 L21.7845167,11.5969844 L21.7845167,12.6219844 L21.9114215,12.6219844 L21.9114215,11.845913 L22.1017786,12.512163 L22.2335643,12.512163 L22.4239215,11.845913 L22.4239215,12.6219844 L22.5459453,12.6219844 Z" id="Shape" fill="#F79E1B" fill-rule="nonzero"></path>
+                        <path d="M21.8083707,7.82922583 C21.8083707,10.3128437 20.4234707,12.5784127 18.2419886,13.6637368 C16.0605065,14.7490609 13.4653738,14.4635973 11.5587532,12.9285835 C13.0868876,11.6987611 13.9791222,9.81862337 13.9791222,7.82832488 C13.9791222,5.83802639 13.0868876,3.95788865 11.5587532,2.72806626 C13.4653738,1.19305242 16.0605065,0.907588828 18.2419886,1.99291297 C20.4234707,3.07823711 21.8083707,5.34380604 21.8083707,7.82742394 L21.8083707,7.82922583 Z" id="Path" fill="#F79E1B"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

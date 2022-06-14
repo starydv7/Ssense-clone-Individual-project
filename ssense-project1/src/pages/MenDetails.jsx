@@ -1,48 +1,45 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
-
+// import { axios } from "axios";
 import { useParams } from 'react-router-dom'
 import {useCart} from "react-use-cart"
-import "./mens.css";
-
-export const Womens = () => {
-  const { id } = useParams() ;
-  const [ women , setWomen] = useState({})
+import "./MenDetails.css";
+export const MenDetails = () => {
+  const { id } = useParams()
+  const [mens, setMens] = useState({})
   const { addItem, items } = useCart();
 
-  let handleAdd = (women)=>{
-    addItem(women,1);
+  let handleAdd = (mens)=>{
+    addItem(mens,1);
 
   }
   console.log("getItems",items);
    localStorage.setItem("Items",JSON.stringify(items))
   const getData = async () => {
     
-    const data1 = await fetch(`https://backend-ssense.herokuapp.com/womens`)
+    const data1 = await fetch(`https://backend-ssense.herokuapp.com/mens`)
     let data2 = await data1.json()
-    //   setMens(data2)
-    console.log("data2" ,data2)
-    const detailData = data2.women.filter((e) => {
+ 
+    const detailData = data2.men.filter((e) => {
       return e._id === id
     })
     console.log(detailData[0])
-    setWomen(detailData[0])
-
+    setMens(detailData[0])
   }
   useEffect(() => {
     getData()
   }, [])
   return (
     <div>
-      
+    
     <div className='Main-div'>
      
-                 <div className="mens-category1">
+                 <div className="menscat1">
                
-                        <h5>{women.name}</h5>
+                        <h5>{mens.name}</h5>
                     
-                  
-                        <p>{women.desc}</p>
+                    {/* <div className="menscat-list"> */}
+                        <p>{mens.desc}</p>
                         <h6>Padded polyester satin jacket</h6>
                         <p>. Half-Zip closure at stand collar</p>
                         <p>. Welt pockets</p>
@@ -62,11 +59,11 @@ export const Womens = () => {
                    
                   </div> 
                   <div className="mens-details-img">
-                        <img className='img' img src={women.img} alt="mens" />
+                        <img className='img' img src={mens.img} alt="mens" />
                   </div> 
-                  <div className="mens-category1">
+                  <div className="menscat1">
                
-                        <h5>{women.price} USD</h5>
+                        <h5>{mens.price} USD</h5>
                         <select name="" id="size">
                           <option value="">Select Size</option>
                           <option value="XXS">XXS</option>
@@ -78,7 +75,7 @@ export const Womens = () => {
                           <option value="XXL">XXL</option>
                         </select>
                         <div className='Add-to-cart-div'>
-                          <button className="add-to-cart" onClick={()=>{handleAdd(women)}}>Add to Bag</button>
+                          <button className="add-to-cart" onClick={()=>{handleAdd(mens)}}>Add to Bag</button>
                           <button className="add-to-wish">Add to Wishlist</button>
                         </div>
                         <div className='Add-to-cart-div2'>

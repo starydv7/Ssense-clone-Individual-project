@@ -20,6 +20,9 @@ const Login = () => {
     navigate("/Everythings");
     
   }
+  const onClick = () => {
+    navigate("./payment");
+  }
   return (
     <div>
       <form onSubmit={handleSubmit}>

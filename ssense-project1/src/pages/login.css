@@ -7,7 +7,8 @@
 .password
 .btn:hover{
     color: red;
-    font-weight: 5w00;
+    font-weight: 500;
+    
     font-stretch: expanded;
     background-color: rgb(28, 29, 28);
     border-radius: 10px;

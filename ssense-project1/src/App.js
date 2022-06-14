@@ -8,10 +8,11 @@ import ShopMens from './pages/ShopMens';
 import Everythings from './pages/Everythings';
 import { SHopWomens } from './pages/ShopWomen';
 import Footer from './pages/Footer';
-import { EvDe } from './pages/EvDe';
+
 import Login from './pages/Login';
 import { Register } from './pages/register';
-
+import { MenDetails } from "./pages/MenDetails"
+import { Checkout } from "./pages/CheckOut";
 
 function App() {
   return (
@@ -23,8 +24,9 @@ function App() {
         <Route path="/womens" element={<SHopWomens />}></Route>
         <Route path='/everythings' element={<Everythings />} />
         <Route path="/register" element={<Register/>}></Route>
-        <Route path="/everythings/:id" element={<EvDe />}></Route>
-        <Route path="/login" element={<Login/>}></Route>
+        <Route path="/login" element={<Login />}></Route>
+        <Route path="/Menswear/:id" element={<MenDetails />}></Route>
+        <Route path="/Checkout" element={<Checkout />} />
         </Routes>
     
       <Footer/>

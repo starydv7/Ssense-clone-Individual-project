@@ -4,9 +4,6 @@ import "../App.css"
 import "../components/Navbar.css"
 import { Link } from 'react-router-dom'
 import { useState, useEffect } from 'react'
-
-
-
 const ShopMens = () => {
 
     const [men, setMens] = useState([])
@@ -20,13 +17,8 @@ const ShopMens = () => {
       
     }
     useEffect(() => {
-     
-      
       getData()
-      
     }, [])
-  
-    
     const handleTerminate = (e) => {
        
         let data2 = men.sort((a, b) => {
@@ -39,12 +31,8 @@ const ShopMens = () => {
                 return bPrice - aPrice;
       }
         })
-      
-       setMens([...data2])
-     
+       setMens([...data2]) 
     }
-   
-
   return (
     <div>
        
@@ -171,23 +159,13 @@ const ShopMens = () => {
                         <ul> Lillie & Co</ul>
                         <ul> Liberal Youth Ministry</ul>
                         <ul> ZENGA</ul>
-                        
-
-
-
-
-
-
+                   
                         </div>
                 </div>
-                
-                
-
+ 
             </div>
        
             <div className='data1'>
-               
-               
             {men.map((e)=>
                         {return (
                           <Link className="data1-item" key = {e._id} to = {`${e._id}`}>
@@ -198,9 +176,6 @@ const ShopMens = () => {
                             </Link>
                             )}
                     )}
-                
-                
-
             </div>
             <div className='menss'>
                 <div>
@@ -231,22 +206,12 @@ const ShopMens = () => {
                             <ul> Red </ul>
                             <ul> Tan</ul>
                             <ul> White</ul>
-                            <ul> Yellow</ul>
-
-                            
+                            <ul> Yellow</ul>     
                     </div>
                 </div>
-                
             </div>
-
-        </div>
-
-
-        
-        
+        </div> 
     </div>
   )
 }
-
-
 export default ShopMens;
