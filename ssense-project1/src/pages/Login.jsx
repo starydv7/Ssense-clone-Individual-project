@@ -1,6 +1,7 @@
 import React, { useState, useContext } from "react";
 import { AuthContext } from "./AuthContext";
 import { useNavigate } from 'react-router-dom'
+import "./login.css";
 const Login = () => {
   const navigate=useNavigate()
   const[logincreds,setlogincreds]=useState({})
@@ -22,9 +23,20 @@ const Login = () => {
   return (
     <div>
       <form onSubmit={handleSubmit}>
-      <input data-cy="login-email" type="email" name="email" placeholder="email" onChange={handleChange}/>
-      <input data-cy="login-password" type="password" name="password" placeholder="enter password" onChange={handleChange} />
-      <button data-cy="login-submit">submit</button>
+        <label>Login</label>
+        <br />
+        <br />
+        <label className="email">Email address</label>
+        <br/>
+        <input  type="email" name="email" placeholder="email" onChange={handleChange} />
+        <br />
+        <br />
+        <label className="password">Password</label>
+        <br/>
+        <input  type="password" name="password" placeholder="enter password" onChange={handleChange} />
+        <br />
+        <br/>
+        <button className="btn">submit</button>
       </form>
 
     </div>
