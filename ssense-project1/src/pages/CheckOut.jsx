@@ -168,7 +168,7 @@ export const Checkout=()=>{
                      <div className="dataHead">ORDER SUMMARY -{totalUniqueItems} ITEMS</div>
                     <hr/>
                     <br/>   
-{/* ................................................................................... */}
+
 
                     <div className="productChoosed">{
                        data.map((e)=>{
