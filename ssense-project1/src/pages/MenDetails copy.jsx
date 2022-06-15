@@ -3,7 +3,10 @@ import { useState, useEffect } from 'react'
 // import { axios } from "axios";
 import { useParams } from 'react-router-dom'
 import {useCart} from "react-use-cart"
-import "./MenDetails.css";
+import "./MenDetails.css"
+import "./Navbar.css"
+import Navbar from './Navbar'
+
 export const MenDetails = () => {
   const { id } = useParams()
   const [mens, setMens] = useState({})
@@ -19,7 +22,8 @@ export const MenDetails = () => {
     
     const data1 = await fetch(`https://backend-ssense.herokuapp.com/mens`)
     let data2 = await data1.json()
- 
+    //   setMens(data2)
+    // console.log("data2" ,data2)
     const detailData = data2.men.filter((e) => {
       return e._id === id
     })
@@ -31,14 +35,14 @@ export const MenDetails = () => {
   }, [])
   return (
     <div>
-    
-    <div className='m1223'>
+      <Navbar/>
+    <div className='Main-div'>
      
-                 <div className="menscat1">
+                 <div className="mens-category1">
                
                         <h5>{mens.name}</h5>
                     
-                    {/* <div className="menscat-list"> */}
+                    {/* <div className="mens-category-list"> */}
                         <p>{mens.desc}</p>
                         <h6>Padded polyester satin jacket</h6>
                         <p>. Half-Zip closure at stand collar</p>
@@ -58,10 +62,10 @@ export const MenDetails = () => {
                         <p>221161M180032</p>
                    
                   </div> 
-                  <div className="m122">
+                  <div className="mens-details-img">
                         <img className='img' img src={mens.img} alt="mens" />
                   </div> 
-                  <div className="menscat1">
+                  <div className="mens-category1">
                
                         <h5>{mens.price} USD</h5>
                         <select name="" id="size">

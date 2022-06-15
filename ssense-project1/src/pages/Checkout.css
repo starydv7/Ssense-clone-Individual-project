@@ -94,9 +94,7 @@
     margin-top: 5%;
     text-align: left;
 }
-.productChoosed{
-    /* border:1px solid green; */
-}
+
 .total>div{
     display: flex;
     justify-content: space-between;

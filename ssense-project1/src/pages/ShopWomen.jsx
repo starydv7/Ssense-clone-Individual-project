@@ -161,8 +161,11 @@ export const SHopWomens = () => {
                             <p>{e.name}</p>
                             <p>{e.desc}</p>
                             <p>{e.price}</p>
+                            <button className='btn3'>Addtocart</button>
                             </Link>
-                            )}
+                    )
+                    }
+                        
                     )}
                 
 

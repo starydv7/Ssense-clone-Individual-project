@@ -68,3 +68,11 @@ color: black;
 ul{
     list-style: none;
 }
+.ssense:hover{
+    background-color: rgb(17, 16, 15);
+    color: #faf7f7;
+    font-size: 40px;
+    
+    font-weight: 600;
+
+}

@@ -1,11 +1,11 @@
 import { useState } from "react";
 import "./Checkout.css";
 import imagev from "../pics/visa.svg"
-import imagem from "../assets/mastercard.svg"
-import imagep from "../assets/paypal.svg"
-import imagea from "../assets/alipay.svg"
+import imagem from "../pics/mastercard.svg"
+import imagep from "../pics/paypal.svg"
+import imagea from "../pics/alipay.svg"
 import {useCart} from "react-use-cart";
-
+import { Link } from "react-router-dom";
 
 let data=JSON.parse(localStorage.getItem("Items"))
 export const Checkout=()=>{

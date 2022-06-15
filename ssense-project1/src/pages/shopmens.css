@@ -31,6 +31,14 @@
 
     
 }
+.btn3{
+    background-color: rgb(20, 20, 20);
+    color: aliceblue;
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    margin-left: -100px;
+}
 .data1{
     width: 76%;
     height: 100%;
