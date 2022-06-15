@@ -1,3 +1,46 @@
+
+
+## About 
+
+This is a clone of the SSense website (url : https://www.ssense.com/en-in)
+
+SSENSE is a multi-brand retailer based in Montreal, Canada specialising in the sale of designer fashion and high end streetwear.
+
+It was founded as an e-commerce platform in 2003 by three brothers: Rami, Bassel and Firas Atallah.
+
+
+The tech stack we used is :
+
+    React
+    Redux
+    HTML5
+    CSS3
+    ES6 JavaScript
+    NodeJs
+    MongoDB
+    npm packages
+
+
+We deployed the front-end on Vercel and the backend on Heroku.
+
+
+
+## Live
+
+https://ssenseprojectclone.vercel.app/
+
+## Reference Images
+
+![Screenshot (368)](https://user-images.githubusercontent.com/97461783/167412516-fb7700f9-d0e4-4732-9df6-9c11dfd2614d.png)
+
+![Screenshot (358)](https://user-images.githubusercontent.com/97461783/167412562-1b099a35-9873-4d14-8a4c-ac19a7a1197b.png)
+
+![Screenshot (359)](https://user-images.githubusercontent.com/97461783/167412599-7a950c93-56e3-47e3-8a6b-bca8030f548e.png)
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +111,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+##  
+
+Happy Coding !
