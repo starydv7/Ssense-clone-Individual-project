@@ -37,7 +37,7 @@ We deployed the front-end on Vercel and the backend on Heroku.
 
 ![Screenshot (359)](https://user-images.githubusercontent.com/97461783/167412599-7a950c93-56e3-47e3-8a6b-bca8030f548e.png)
 
-![Screenshot (361)](https://user-images.githubusercontent.com/97461783/167412646-133bcc7f-3a2d-472e-b387-ef095e202294.png)
+![Screenshot (361)](chrome-extension://mcbpblocgmgfnpjjppndjkmgjaogfceg/fsCaptured.html)
 
 ![Screenshot (362)](https://user-images.githubusercontent.com/97461783/167412726-8f738ac2-4f81-4bb6-a9c0-8c306d5ded7a.png)
 
