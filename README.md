@@ -16,25 +16,8 @@ The tech stack we used is :
     HTML5
     CSS3
     ES6 JavaScript
-    npm packages
-
-
-
-
-
-
+    npm packagee
 ## Live
-
-
-
-## Reference Images
-
-![Screenshot (368)](https://user-images.githubusercontent.com/97461783/167412516-fb7700f9-d0e4-4732-9df6-9c11dfd2614d.png)
-
-![Screenshot (358)](https://user-images.githubusercontent.com/97461783/167412562-1b099a35-9873-4d14-8a4c-ac19a7a1197b.png)
-
-![Screenshot (359)](https://user-images.githubusercontent.com/97461783/167412599-7a950c93-56e3-47e3-8a6b-bca8030f548e.png)
-
 
 
 
