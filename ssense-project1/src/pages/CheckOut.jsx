@@ -36,12 +36,12 @@ export const Checkout=()=>{
             </div>
             <div className="checkoutTab">
                 <div className="checkoutMain">
-                    <div className="checkoutTopTitle">CHECKOUT</div>
-                    <div className="shippingHead">SHIPPING ADDRESS</div>
+                    <div className="first1245">CHECKOUT</div>
+                    <div className="first09873">SHIPPING ADDRESS</div>
                     <hr/>
                     <br/>
-                    <div className="addressHolder">
-                        <div className="fillDetails">
+                    <div className="address">
+                        <div className="details">
                             <div>
                                 <label style={{textAlign:"left",fontSize:"11px"}}>First Name</label>
                                 <input style={{height:"30px"}} type="text" name="firstName"/>
@@ -51,7 +51,7 @@ export const Checkout=()=>{
                                 <input style={{height:"30px"}} type="text" name="lastName"/>
                             </div>
                         </div>
-                        <div className="fillDetails">
+                        <div className="details">
                             <div>
                                 <label style={{textAlign:"left",fontSize:"11px"}}>Street Address</label>
                                 <input style={{height:"30px"}} type="text" name="streetAddress"/>
@@ -61,7 +61,7 @@ export const Checkout=()=>{
                                 <input style={{height:"30px"}} type="text" name="company"/>
                             </div>
                         </div>
-                        <div className="fillDetails">
+                        <div className="details">
                             <div>
                                 <label style={{textAlign:"left",fontSize:"11px"}}>City</label>
                                 <input style={{height:"30px"}} type="text" name="city"/>
@@ -71,7 +71,7 @@ export const Checkout=()=>{
                                 <input style={{height:"30px",width:"40%"}} type="text" name="postalcode"/>
                             </div>
                         </div>
-                        <div className="fillDetails">
+                        <div className="details">
                             <div>
                                 <label style={{textAlign:"left",fontSize:"11px"}}>Country</label>
                                 <input style={{height:"30px"}} type="text" name="country"/>
@@ -81,7 +81,7 @@ export const Checkout=()=>{
                                 <input style={{height:"30px",width:"40%"}} type="text" name="state"/>
                             </div>
                         </div>
-                        <div className="fillDetails">
+                        <div className="details">
                             <div>
                                 <label style={{textAlign:"left",fontSize:"11px"}}>Phone</label>
                                 <input style={{height:"30px",width:"40%"}} type="text" name="company"/>
@@ -93,16 +93,16 @@ export const Checkout=()=>{
                     <div className="shipping">
                         <div className="shippingmethod">SHIPPING METHOD</div>
                         <hr/>
-                        <div className="shippingbox">
-                            <input type="radio" name="shippingbox" checked />
+                        <div className="shbox">
+                            <input type="radio" name="shbox" checked />
                             <div>$0.00 USD | 5 - 7 days | Express</div>
                         </div> 
                     </div>
                     <br/>
                     <div className="payment">
-                        <div className="paymentmethod">PAYMENT METHOD</div>
+                        <div className="paytmet">PAYMENT METHOD</div>
                         <hr/>
-                        <div className="paymentbox">
+                        <div className="paytmet1">
                             <div className="cardpayment">
                                 <input type="radio" id="PLACE ORDER" name="payopt" onChange={(e)=>handleChange(e)}/>
                                 <div style={{marginLeft:"1%"}}>Pay with credit or debit card</div>
@@ -126,7 +126,7 @@ export const Checkout=()=>{
                     <div className="shipping">
                         <div className="shippingmethod">CARD DETAILS</div>
                         <hr/><br/>
-                        <div className="fillDetails">
+                        <div className="details">
                             <div>
                                 <label style={{textAlign:"left",fontSize:"11px"}}>Card Number</label>
                                 <input style={{height:"30px"}} type="text" name="cnum"/>
@@ -136,7 +136,7 @@ export const Checkout=()=>{
                                 <input style={{height:"30px",width:"40%"}} type="text" name="expdate"/>
                             </div>
                         </div>
-                        <div className="fillDetails">
+                        <div className="details">
                             <div>
                                 <label style={{textAlign:"left",fontSize:"11px"}}>Card's Holder Name</label>
                                 <input style={{height:"30px"}} type="text" name="cname"/>
@@ -150,7 +150,7 @@ export const Checkout=()=>{
                     <div className="shipping" style={{marginBottom:"35px"}}>
                         <div className="shippingmethod">BILLING ADDRESS</div>
                         <hr/>
-                        <div className="shippingbox" >
+                        <div className="shbox" >
                             <br/>
                             <input type="radio" name="billbox" checked />
                             <div>Same as Shipping Address</div>
