@@ -10,18 +10,16 @@ It was founded as an e-commerce platform in 2003 by three brothers: Rami, Bassel
 
 
 The tech stack we used is :
-
+    JavaScript
     React
     Redux
     HTML5
     CSS3
     ES6 JavaScript
-    NodeJs
-    MongoDB
     npm packages
 
 
-We deployed the front-end on Vercel and the backend on Heroku.
+
 
 
 
