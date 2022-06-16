@@ -17,8 +17,7 @@ The tech stack we used is :
     CSS3
     ES6 JavaScript
     npm packagee
-## Live
-
+## Live : https://ssense-clone-pawan-yadav.netlify.app/
 
 
 
