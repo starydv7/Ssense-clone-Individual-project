@@ -10,7 +10,7 @@ It was founded as an e-commerce platform in 2003 by three brothers: Rami, Bassel
 
 
 ### The tech stack we used is :
-   > JavaScript
+   >> JavaScript
    > React
    > Redux
    > HTML5
